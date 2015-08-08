@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/md_blue_grey_700"
+    tools:context="com.team16.antenna.trend.das.AddCar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="70dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/grey"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textView_takePhoto"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/md_white_1000"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/textView_brand1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/hint_brand"
+        android:ems="10"
+        android:textColor="@color/md_white_1000"
+        android:textColorHint="@color/md_blue_grey_400" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/md_white_1000"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/textView_model1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/hint_model"
+        android:ems="10"
+        android:textColor="@color/md_white_1000"
+        android:textColorHint="@color/md_blue_grey_400" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/md_white_1000"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/textView_year" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/hint_year"
+        android:ems="10"
+        android:textColor="@color/md_white_1000"
+        android:textColorHint="@color/md_blue_grey_400" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/md_white_1000"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/textView_color1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/hint_color1"
+        android:ems="10"
+        android:textColor="@color/md_white_1000"
+        android:textColorHint="@color/md_blue_grey_400"
+        android:id="@+id/editText_completeNameSignUp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_doneSignup"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClickDoneAddCar"/>
+
+</LinearLayout>

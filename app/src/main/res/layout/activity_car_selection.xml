@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/md_blue_grey_700"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    tools:context="com.team16.antenna.trend.das.CarSelection">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:onClick="onClickVolvo"
+        android:background="@color/dark_divider"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/md_white_1000"
+                android:text="@string/textView_brand"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/md_white_1000"
+                android:text="@string/textView_model"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/md_white_1000"
+                android:text="@string/textView_color"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textView_addcar"
+        android:padding="30dp"
+        android:onClick="onClickAddCar"
+        android:background="@color/grey"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+</LinearLayout>

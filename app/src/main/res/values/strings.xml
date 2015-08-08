@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">Driving Assistance System</string>
+
+
+    <!--Star Activity-->
+    <string name="button_loginStart">Login</string>
+    <string name="button_signupStart">Sign Up</string>
+
+    <!--Activity_login-->
+    <string name="textView_emailLogin">Email:</string>
+    <string name="hint_emailLogin">Ex: das@continental.com</string>
+    <string name="textView_passwordLogin">Password</string>
+    <string name="hint_passwordLogin">°°°°°°°°°°</string>
+    <string name="button_loginLogin">Log in</string>
+    <string name="textView_forget">Forget your password?</string>
+
+
+    <!--Car Selection-->
+    <string name="textView_brand">Brand: Volvo</string>
+    <string name="textView_brand1">Brand:</string>
+    <string name="hint_brand">Honda</string>
+    <string name="textView_model1">Model</string>
+    <string name="hint_model">CRV</string>
+    <string name="textView_year">Year:</string>
+    <string name="hint_year">2010</string>
+    <string name="textView_color1">Color:</string>
+    <string name="hint_color1">Marine Blue</string>
+    <string name="textView_model">Model: S80 V8 AWD</string>
+    <string name="textView_color">Color: Grey</string>
+    <string name="textView_addcar">+ Add car</string>
+    <!--Add Car-->
+    <string name="textView_takePhoto">+ Take Photo</string>
+
+    <!--Activity_sign_up-->
+    <string name="textView_username">Username:</string>
+    <string name="hint_username">Ex. TrendAntennaTeam16</string>
+    <string name="textView_celphoneSignup">Celphone Number:</string>
+    <string name="hint_celphoneSignup">Ex. 3331481230</string>
+    <string name="textView_countrySignup">Country:</string>
+    <string name="hint_countrySignup">Ex. Germany</string>
+    <string name="textView_emailSignup">Email:</string>
+    <string name="hint_emailSignup">Ex: das@continental.com</string>
+    <string name="textView_passwordSignup">Password:</string>
+    <string name="hint_passwordSignup">°°°°°°°°°°</string>
+    <string name="textView_passwordreviewSignup">Confirm Password:</string>
+    <string name="hint_passwordrewiewSignup">°°°°°°°°°°</string>
+    <string name="button_doneSignup">Done</string>
+    <string name="textView_checkboxSignup">I agree with the terms</string>
+    <string name="textView_termsSignUp">(Read terms)</string>
+
+    <!--Activity_forget-->
+    <string name="textView_forgetMessage">Please enter your email and we will send you a message with your password</string>
+    <string name="textView_forgetemail">Email:</string>
+    <string name="hint_emailforget">Ex: das@continental.com</string>
+    <string name="button_sendforget">Send</string>
+
+    <!--Activity_forget2-->
+    <string name="textView_forgetMessage2">In a moment you will receive your password in your inbox e-mai.</string>
+    <string name="button_resendforget2">Resend</string>
+    <string name="button_loginforget2">Login</string>
+    <string name="button_bakcForget2">Back</string>
+    <string name="title_activity_introduction2">Introduction</string>
+    <string name="title_activity_introduction3">Introduction</string>
+    <string name="title_activity_introduction4">Introduction</string>
+
+    <!--Introduction-->
+    <string name="button_nextIntroduction">Next</string>
+    <string name="button_backIntroduction">Back</string>
+    <string name="button_startIntroduction">Let´s Start!</string>
+
+    <!---OBD Activity-->
+    <string name="button_obdConnection">Conect</string>
+    <string name="button_start">Start</string>
+
+    <!---DAS Activity-->
+    <string name="title_carstutas">Car Status</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_scan">Scan</string>
+    <string name="title_stadistics">Stadistics</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="title_tips">Tips</string>
+    <string name="title_tutorials">Tutorials</string>
+    <string name="title_setting">Settings</string>
+    <string name="title_help">Help</string>
+    <string name="title_logout">Logout</string>
+
+    <!--Settings menu-->
+    <string name="textView_carData">Car Data</string>
+    <string name="textView_alarms">Alarms</string>
+    <string name="textView_notifications">Notifications</string>
+    <string name="textView_languages">Languages</string>
+    <string name="textView_units">Units</string>
+    <string name="button_save">Save</string>
+    <!--Languajes-->
+    <string name="checkbox_spanish">Spanish</string>
+    <string name="checkbox_english">English</string>
+    <string name="checkbox_german">German</string>
+    <!--Notifications-->
+    <string name="checkbox_visual">Visual</string>
+    <string name="checkbox_auditory">Auditory</string>
+    <string name="textView_auditory">Practical when you are driving</string>
+    <!--Alarms-->
+    <string name="textView_aceleration">Aceleration</string>
+    <string name="textView_speed">Speed</string>
+    <string name="textView_braking">Braking</string>
+    <string name="textView_fuel">Fuel</string>
+    <string name="textView_tankstatus">Tank Status</string>
+    <string name="checkbox_customLimit">Custom Limit</string>
+    <string name="hint_customLimit">100</string>
+    <string name="checkbox_defaultLimit">Default Limit</string>
+    <string name="checkbox_defaultLimit60">60Km/hr</string>
+    <string name="checkbox_defaultLimit50">50Km/hr</string>
+    <string name="checkbox_defaultLimit80">80km/hr</string>
+    <string name="checkbox_defaultTank14">1/4 L</string>
+    <string name="checkbox_defaultTank12">1/2 L</string>
+    <string name="checkbox_defaultTank34">3/4 L</string>
+    <!--Units-->
+    <string name="checkbox_englandSystem">England System</string>
+    <string name="checkbox_internationalSystem">International System</string>
+    <string name="textView_englandSystem">lb, mile, pound</string>
+    <string name="textView_internationalSystem">Km,kg,hr</string>
+
+
+
+    <!--Activities title-->
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="title_activity_terms">Terms</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_forgot">Forgot your password?</string>
+    <string name="title_activity_forgot2">Forgot your password?</string>
+    <string name="title_activity_introduction">Introduction</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_obd">Driving Assistance System</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_scan">Scan</string>
+    <string name="title_activity_calendar">Calendar</string>
+    <string name="title_activity_statistics">Statistics</string>
+    <string name="title_activity_tips">Tips</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_tutorials">Tutorials</string>
+    <string name="title_activity_connection">Bluethood Connection</string>
+    <string name="title_activity_settings_car_data">Settings - Car Data</string>
+    <string name="title_activity_settings_alarms">Settings - Alarms</string>
+    <string name="title_activity_settings_notifications">Settings - Notifications</string>
+    <string name="title_activity_settings_languajes">Settings - Languajes</string>
+    <string name="title_activity_settings_units">Settings - Units</string>
+    <string name="title_activity_alarms_speed">Settings - Alarms - Speed</string>
+    <string name="title_activity_alarms_aceleration">Settings - Alarms - Aceleration</string>
+    <string name="title_activity_alarms_fuel">Settings - Alarms - Fuel</string>
+    <string name="title_activity_alarms_braking">Settings - Alarms - Braking</string>
+    <string name="title_activity_car_selection">Car Selection</string>
+    <string name="title_activity_connect">OBD - Bluethood Connection</string>
+    <string name="title_activity_add_car">+ Add Car</string>
+    <string name="title_activity_das">Driving Assitance System</string>
+
+
+</resources>
