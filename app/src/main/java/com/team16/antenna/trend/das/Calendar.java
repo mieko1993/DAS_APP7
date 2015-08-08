@@ -1,17 +1,23 @@
 package com.team16.antenna.trend.das;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
-public class Calendar extends AppCompatActivity {
+
+public class Calendar extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calendar);
+        super.onCreateDrawer();
+        //Action bar needs to be instatiate in every Activity that has layout
+        setUpActionBar();
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -34,4 +40,33 @@ public class Calendar extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    //Set up Action Bar
+    private void setUpActionBar() {
+        //Uses superclass method to instantiate ActionBar
+        mActionBarToolbar = getActionBarToolbar();
+        mActionBarToolbar.setTitle(getResources().getString(R.string.title_calendar));
+        setSupportActionBar(mActionBarToolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
+        //Set up Icon for the Navigation Drawer
+        mActionBarToolbar.setNavigationIcon(R.drawable.ic_drawer);
+        //Set up Action for the Navigation Drawer Icon
+        mActionBarToolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(drawerList.isShown()){
+                    //Close Navigation Drawer
+                    drawerLayout.closeDrawer(Gravity.LEFT);
+                }else {
+                    //Open Navigation Drawer
+                    drawerLayout.openDrawer(Gravity.LEFT);
+                }
+            }
+        });
+
+    }
+
+
+
 }
