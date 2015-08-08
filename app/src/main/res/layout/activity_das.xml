@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/linearlayout_root_main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/md_blue_grey_700">
 
     <LinearLayout
         android:id="@+id/layout_main"
@@ -34,6 +35,7 @@
                 <TextView
                     android:text="@string/title_carstutas"
                     android:layout_width="wrap_content"
+                    android:textColor="@color/md_white_1000"
                     android:layout_height="wrap_content" />
 
             </RelativeLayout>
